@@ -1,0 +1,35 @@
+.container {
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.start-button {
+  color: white;
+  background-color: rgb(70, 68, 68);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.text-style {
+  color: black;
+  font-size: 18px;
+}
